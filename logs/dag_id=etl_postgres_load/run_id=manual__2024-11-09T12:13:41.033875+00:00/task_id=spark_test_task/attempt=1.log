@@ -1,0 +1,123 @@
+[2024-11-09T13:13:47.905+0100] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-09T13:13:47.977+0100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_postgres_load.spark_test_task manual__2024-11-09T12:13:41.033875+00:00 [queued]>
+[2024-11-09T13:13:47.996+0100] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_postgres_load.spark_test_task manual__2024-11-09T12:13:41.033875+00:00 [queued]>
+[2024-11-09T13:13:47.997+0100] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-11-09T13:13:48.024+0100] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): spark_test_task> on 2024-11-09 12:13:41.033875+00:00
+[2024-11-09T13:13:48.040+0100] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'etl_postgres_load', 'spark_test_task', 'manual__2024-11-09T12:13:41.033875+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/test.py', '--cfg-path', '/tmp/tmpctvdv2am']
+[2024-11-09T13:13:48.043+0100] {standard_task_runner.py:105} INFO - Job 21: Subtask spark_test_task
+[2024-11-09T13:13:48.043+0100] {logging_mixin.py:190} WARNING - /home/hajar/airflow_venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=37649) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-09T13:13:48.044+0100] {standard_task_runner.py:72} INFO - Started process 37674 to run task
+[2024-11-09T13:13:48.242+0100] {task_command.py:467} INFO - Running <TaskInstance: etl_postgres_load.spark_test_task manual__2024-11-09T12:13:41.033875+00:00 [running]> on host DESKTOP-SO44L49.
+[2024-11-09T13:13:48.515+0100] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='etl_postgres_load' AIRFLOW_CTX_TASK_ID='spark_test_task' AIRFLOW_CTX_EXECUTION_DATE='2024-11-09T12:13:41.033875+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-09T12:13:41.033875+00:00'
+[2024-11-09T13:13:48.521+0100] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-09T13:13:48.522+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-09T13:13:48.522+0100] {logging_mixin.py:190} INFO - Current task name:spark_test_task state:running start_date:2024-11-09 12:13:47.978249+00:00
+[2024-11-09T13:13:48.523+0100] {logging_mixin.py:190} INFO - Dag name:etl_postgres_load and current dag run status:running
+[2024-11-09T13:13:48.523+0100] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-09T13:13:48.524+0100] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-11-09T13:13:48.526+0100] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'spark-submit /home/hajar/airflow/spark/spark_application.py']
+[2024-11-09T13:13:48.540+0100] {subprocess.py:99} INFO - Output:
+[2024-11-09T13:13:53.137+0100] {subprocess.py:106} INFO - 24/11/09 13:13:53 WARN Utils: Your hostname, DESKTOP-SO44L49 resolves to a loopback address: 127.0.1.1; using 172.30.252.59 instead (on interface eth0)
+[2024-11-09T13:13:53.145+0100] {subprocess.py:106} INFO - 24/11/09 13:13:53 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2024-11-09T13:13:58.801+0100] {subprocess.py:106} INFO - /home/hajar/airflow/spark/spark_application.py:18: UserWarning: pandas only supports SQLAlchemy connectable (engine/connection) or database string URI or sqlite3 DBAPI2 connection. Other DBAPI2 objects are not tested. Please consider using SQLAlchemy.
+[2024-11-09T13:13:58.802+0100] {subprocess.py:106} INFO -   df = pd.read_sql(query, conn)
+[2024-11-09T13:13:58.811+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.811 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.897+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.897
+[2024-11-09T13:13:58.898+0100] {subprocess.py:106} INFO -   [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+[2024-11-09T13:13:58.898+0100] {subprocess.py:106} INFO -   command:
+[2024-11-09T13:13:58.899+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:13:58.899+0100] {subprocess.py:106} INFO -     streamlit run /home/hajar/airflow/spark/spark_application.py [ARGUMENTS]
+[2024-11-09T13:13:58.900+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.897 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.900+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.898 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.900+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.898 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.901+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.901 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.902+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.901 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.902+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.901 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.903+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.902 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.903+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.903 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.905+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.904 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.905+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.905 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.906+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.905 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.907+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.907 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.908+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.907 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.908+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.907 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:58.909+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:58.907 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:59.250+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:59.250 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:59.251+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:59.250 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:59.251+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:59.251 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:13:59.252+0100] {subprocess.py:106} INFO - 2024-11-09 13:13:59.251 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.292+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.292 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.459+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.458 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.459+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.459 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.460+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.459 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.460+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.459 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.469+0100] {subprocess.py:106} INFO - /home/hajar/airflow/spark/spark_application.py:51: FutureWarning:
+[2024-11-09T13:14:00.469+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:00.470+0100] {subprocess.py:106} INFO - The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+[2024-11-09T13:14:00.470+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:00.470+0100] {subprocess.py:106} INFO -   sns.barplot(data=filtered_data, x='gender', y='monthlyincome', estimator='mean', ci=None, palette='pastel', ax=ax)
+[2024-11-09T13:14:00.479+0100] {subprocess.py:106} INFO - /home/hajar/airflow/spark/spark_application.py:51: FutureWarning:
+[2024-11-09T13:14:00.480+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:00.480+0100] {subprocess.py:106} INFO - Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+[2024-11-09T13:14:00.481+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:00.481+0100] {subprocess.py:106} INFO -   sns.barplot(data=filtered_data, x='gender', y='monthlyincome', estimator='mean', ci=None, palette='pastel', ax=ax)
+[2024-11-09T13:14:00.510+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.510 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.619+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.619 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.620+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.619 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.622+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.619 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.623+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.620 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.726+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.726 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.907+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.906 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.907+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.907 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.908+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.907 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.908+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.907 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:00.982+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:00.982 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.310+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.310 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.310+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.310 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.311+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.310 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.311+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.310 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.324+0100] {subprocess.py:106} INFO - /home/hajar/airflow/spark/spark_application.py:75: FutureWarning:
+[2024-11-09T13:14:01.324+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.325+0100] {subprocess.py:106} INFO - The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+[2024-11-09T13:14:01.325+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.325+0100] {subprocess.py:106} INFO -   sns.barplot(data=filtered_data, x='education', y='monthlyincome', estimator='mean', ci=None, palette='viridis', ax=ax)
+[2024-11-09T13:14:01.334+0100] {subprocess.py:106} INFO - /home/hajar/airflow/spark/spark_application.py:75: FutureWarning:
+[2024-11-09T13:14:01.335+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.335+0100] {subprocess.py:106} INFO - Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+[2024-11-09T13:14:01.335+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.336+0100] {subprocess.py:106} INFO -   sns.barplot(data=filtered_data, x='education', y='monthlyincome', estimator='mean', ci=None, palette='viridis', ax=ax)
+[2024-11-09T13:14:01.420+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.420 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.645+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.644 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.645+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.644 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.646+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.645 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.647+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.645 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.667+0100] {subprocess.py:106} INFO - /home/hajar/airflow/spark/spark_application.py:83: FutureWarning:
+[2024-11-09T13:14:01.668+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.668+0100] {subprocess.py:106} INFO - The `ci` parameter is deprecated. Use `errorbar=None` for the same effect.
+[2024-11-09T13:14:01.668+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.669+0100] {subprocess.py:106} INFO -   sns.barplot(data=filtered_data, x='department', y='monthlyincome', estimator='mean', ci=None, palette='magma', ax=ax)
+[2024-11-09T13:14:01.682+0100] {subprocess.py:106} INFO - /home/hajar/airflow/spark/spark_application.py:83: FutureWarning:
+[2024-11-09T13:14:01.683+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.683+0100] {subprocess.py:106} INFO - Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+[2024-11-09T13:14:01.684+0100] {subprocess.py:106} INFO - 
+[2024-11-09T13:14:01.684+0100] {subprocess.py:106} INFO -   sns.barplot(data=filtered_data, x='department', y='monthlyincome', estimator='mean', ci=None, palette='magma', ax=ax)
+[2024-11-09T13:14:01.774+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.774 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.976+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.975 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.976+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.975 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.977+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.976 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:01.977+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:01.976 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:02.760+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:02.760 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:03.073+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:03.072 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:03.073+0100] {subprocess.py:106} INFO - 2024-11-09 13:14:03.072 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+[2024-11-09T13:14:03.474+0100] {subprocess.py:106} INFO - 24/11/09 13:14:03 INFO ShutdownHookManager: Shutdown hook called
+[2024-11-09T13:14:03.476+0100] {subprocess.py:106} INFO - 24/11/09 13:14:03 INFO ShutdownHookManager: Deleting directory /tmp/spark-5d2769c8-c204-4ebd-acd7-75dde64624b2
+[2024-11-09T13:14:03.530+0100] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-11-09T13:14:03.711+0100] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-09T13:14:03.712+0100] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=etl_postgres_load, task_id=spark_test_task, run_id=manual__2024-11-09T12:13:41.033875+00:00, execution_date=20241109T121341, start_date=20241109T121347, end_date=20241109T121403
+[2024-11-09T13:14:03.742+0100] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-09T13:14:03.743+0100] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-09T13:14:03.744+0100] {logging_mixin.py:190} INFO - Dag name:etl_postgres_load queued_at:2024-11-09 12:13:41.107285+00:00
+[2024-11-09T13:14:03.744+0100] {logging_mixin.py:190} INFO - Task hostname:DESKTOP-SO44L49. operator:BashOperator
+[2024-11-09T13:14:03.770+0100] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-09T13:14:03.815+0100] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-09T13:14:03.818+0100] {local_task_job_runner.py:245} INFO - ::endgroup::

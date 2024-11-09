@@ -1,0 +1,1247 @@
+[2024-11-08T23:30:11.533+0100] {processor.py:186} INFO - Started process (PID=17951) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:30:11.534+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:30:11.538+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.537+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:30:11.551+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:30:11.747+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.747+0100] {override.py:1911} INFO - Created Permission View: can delete on DAG:spark_test_dag
+[2024-11-08T23:30:11.761+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.760+0100] {override.py:1911} INFO - Created Permission View: can edit on DAG:spark_test_dag
+[2024-11-08T23:30:11.770+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.770+0100] {override.py:1911} INFO - Created Permission View: can read on DAG:spark_test_dag
+[2024-11-08T23:30:11.782+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.781+0100] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:spark_test_dag
+[2024-11-08T23:30:11.791+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.791+0100] {override.py:1911} INFO - Created Permission View: can create on DAG Run:spark_test_dag
+[2024-11-08T23:30:11.804+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.804+0100] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:spark_test_dag
+[2024-11-08T23:30:11.814+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.814+0100] {override.py:1911} INFO - Created Permission View: can read on DAG Run:spark_test_dag
+[2024-11-08T23:30:11.815+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.815+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:30:11.831+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.830+0100] {dag.py:3262} INFO - Creating ORM DAG for spark_test_dag
+[2024-11-08T23:30:11.831+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:11.831+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:30:11.853+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.326 seconds
+[2024-11-08T23:30:42.393+0100] {processor.py:186} INFO - Started process (PID=18131) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:30:42.396+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:30:42.401+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:42.400+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:30:42.425+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:30:42.482+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:42.482+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:30:42.503+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:30:42.503+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:30:42.533+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.171 seconds
+[2024-11-08T23:31:13.027+0100] {processor.py:186} INFO - Started process (PID=18423) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:31:13.033+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:31:13.048+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:31:13.046+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:31:13.085+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:31:13.150+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:31:13.149+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:31:13.170+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:31:13.170+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:31:13.198+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.208 seconds
+[2024-11-08T23:31:43.917+0100] {processor.py:186} INFO - Started process (PID=18603) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:31:43.922+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:31:43.930+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:31:43.930+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:31:43.947+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:31:43.997+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:31:43.996+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:31:44.014+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:31:44.014+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:31:44.039+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.153 seconds
+[2024-11-08T23:32:14.261+0100] {processor.py:186} INFO - Started process (PID=18776) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:32:14.262+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:32:14.265+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:32:14.265+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:32:14.273+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:32:14.316+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:32:14.315+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:32:14.332+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:32:14.331+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:32:14.359+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.111 seconds
+[2024-11-08T23:32:45.291+0100] {processor.py:186} INFO - Started process (PID=18949) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:32:45.293+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:32:45.296+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:32:45.295+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:32:45.309+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:32:45.356+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:32:45.355+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:32:45.373+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:32:45.373+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:32:45.398+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.121 seconds
+[2024-11-08T23:33:15.469+0100] {processor.py:186} INFO - Started process (PID=19128) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:33:15.470+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:33:15.473+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:33:15.472+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:33:15.485+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:33:15.532+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:33:15.531+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:33:15.548+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:33:15.548+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:33:15.574+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.115 seconds
+[2024-11-08T23:33:45.864+0100] {processor.py:186} INFO - Started process (PID=19301) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:33:45.873+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:33:45.876+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:33:45.875+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:33:45.892+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:33:45.968+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:33:45.968+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:33:46.001+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:33:46.001+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:33:46.035+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.203 seconds
+[2024-11-08T23:34:16.434+0100] {processor.py:186} INFO - Started process (PID=19474) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:34:16.436+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:34:16.440+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:34:16.440+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:34:16.451+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:34:16.493+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:34:16.493+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:34:16.511+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:34:16.510+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:34:16.536+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.122 seconds
+[2024-11-08T23:34:47.413+0100] {processor.py:186} INFO - Started process (PID=19655) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:34:47.414+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:34:47.417+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:34:47.416+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:34:47.425+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:34:47.471+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:34:47.471+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:34:47.490+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:34:47.490+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:34:47.514+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.115 seconds
+[2024-11-08T23:35:17.993+0100] {processor.py:186} INFO - Started process (PID=19831) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:35:17.995+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:35:17.998+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:35:17.997+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:35:18.009+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:35:18.056+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:35:18.056+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:35:18.077+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:35:18.076+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:35:18.108+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.126 seconds
+[2024-11-08T23:35:48.290+0100] {processor.py:186} INFO - Started process (PID=20149) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:35:48.292+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:35:48.296+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:35:48.295+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:35:48.315+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:35:48.385+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:35:48.385+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:35:48.428+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:35:48.427+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:35:48.473+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.207 seconds
+[2024-11-08T23:36:19.469+0100] {processor.py:186} INFO - Started process (PID=20385) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:36:19.470+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:36:19.474+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:36:19.473+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:36:19.488+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:36:19.581+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:36:19.581+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:36:19.674+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:36:19.673+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:36:19.824+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.369 seconds
+[2024-11-08T23:36:50.069+0100] {processor.py:186} INFO - Started process (PID=20749) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:36:50.075+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:36:50.079+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:36:50.078+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:36:50.094+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:36:50.159+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:36:50.159+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:36:50.204+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:36:50.204+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:36:50.270+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.218 seconds
+[2024-11-08T23:37:20.670+0100] {processor.py:186} INFO - Started process (PID=20958) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:37:20.672+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:37:20.675+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:37:20.674+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:37:20.684+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:37:20.743+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:37:20.743+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:37:20.764+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:37:20.764+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:37:20.808+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.148 seconds
+[2024-11-08T23:37:51.007+0100] {processor.py:186} INFO - Started process (PID=21192) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:37:51.009+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:37:51.012+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:37:51.011+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:37:51.021+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:37:51.066+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:37:51.065+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:37:51.083+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:37:51.083+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:37:51.114+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.125 seconds
+[2024-11-08T23:38:21.485+0100] {processor.py:186} INFO - Started process (PID=21468) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:38:21.489+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:38:21.493+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:38:21.492+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:38:21.504+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:38:21.544+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:38:21.544+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:38:21.566+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:38:21.565+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:38:21.592+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.119 seconds
+[2024-11-08T23:38:52.120+0100] {processor.py:186} INFO - Started process (PID=21636) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:38:52.122+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:38:52.126+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:38:52.126+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:38:52.136+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:38:52.177+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:38:52.177+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:38:52.198+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:38:52.198+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:38:52.222+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.117 seconds
+[2024-11-08T23:39:22.295+0100] {processor.py:186} INFO - Started process (PID=21803) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:39:22.312+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:39:22.316+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:39:22.316+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:39:22.328+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:39:22.379+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:39:22.379+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:39:22.410+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:39:22.410+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:39:22.459+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.186 seconds
+[2024-11-08T23:39:52.976+0100] {processor.py:186} INFO - Started process (PID=21976) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:39:52.978+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:39:52.983+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:39:52.981+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:39:52.999+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:39:53.056+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:39:53.056+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:39:53.082+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:39:53.082+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:39:53.119+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.156 seconds
+[2024-11-08T23:40:23.897+0100] {processor.py:186} INFO - Started process (PID=22143) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:40:23.911+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:40:23.914+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:40:23.913+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:40:23.926+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:40:23.986+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:40:23.986+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:40:24.017+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:40:24.017+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:40:24.057+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.174 seconds
+[2024-11-08T23:40:54.310+0100] {processor.py:186} INFO - Started process (PID=22405) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:40:54.312+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:40:54.316+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:40:54.315+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:40:54.330+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:40:54.386+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:40:54.386+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:40:54.414+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:40:54.413+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:40:54.454+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.154 seconds
+[2024-11-08T23:41:25.057+0100] {processor.py:186} INFO - Started process (PID=22627) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:41:25.060+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:41:25.064+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:41:25.064+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:41:25.076+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:41:25.125+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:41:25.124+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:41:25.152+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:41:25.151+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:41:25.186+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.140 seconds
+[2024-11-08T23:41:55.247+0100] {processor.py:186} INFO - Started process (PID=22796) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:41:55.248+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:41:55.252+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:41:55.252+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:41:55.266+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:41:55.327+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:41:55.326+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:41:55.363+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:41:55.363+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:41:55.412+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.180 seconds
+[2024-11-08T23:42:25.702+0100] {processor.py:186} INFO - Started process (PID=22969) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:42:25.705+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:42:25.710+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:42:25.709+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:42:25.722+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:42:25.775+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:42:25.775+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:42:25.803+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:42:25.803+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:42:25.835+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.155 seconds
+[2024-11-08T23:42:56.037+0100] {processor.py:186} INFO - Started process (PID=23142) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:42:56.038+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:42:56.041+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:42:56.041+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:42:56.058+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:42:56.124+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:42:56.124+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:42:56.157+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:42:56.157+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:42:56.191+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.170 seconds
+[2024-11-08T23:43:26.687+0100] {processor.py:186} INFO - Started process (PID=23317) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:43:26.690+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:43:26.694+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:43:26.694+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:43:26.711+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:43:26.750+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:43:26.750+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:43:26.768+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:43:26.767+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:43:26.807+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.139 seconds
+[2024-11-08T23:43:57.837+0100] {processor.py:186} INFO - Started process (PID=23490) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:43:57.842+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:43:57.846+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:43:57.845+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:43:57.869+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:43:57.924+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:43:57.924+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:43:57.948+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:43:57.948+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:43:57.983+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.172 seconds
+[2024-11-08T23:44:28.608+0100] {processor.py:186} INFO - Started process (PID=23663) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:44:28.612+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:44:28.616+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:44:28.615+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:44:28.632+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:44:28.705+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:44:28.705+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:44:28.794+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:44:28.793+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:44:28.868+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.278 seconds
+[2024-11-08T23:44:59.692+0100] {processor.py:186} INFO - Started process (PID=23851) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:44:59.694+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:44:59.696+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:44:59.696+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:44:59.709+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:44:59.753+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:44:59.752+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:44:59.775+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:44:59.775+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:44:59.803+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.123 seconds
+[2024-11-08T23:45:29.837+0100] {processor.py:186} INFO - Started process (PID=24029) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:45:29.840+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:45:29.844+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:45:29.843+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:45:29.854+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:45:29.907+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:45:29.907+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:45:29.932+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:45:29.932+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:45:29.967+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.141 seconds
+[2024-11-08T23:46:00.279+0100] {processor.py:186} INFO - Started process (PID=24202) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:46:00.281+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:46:00.286+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:46:00.286+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:46:00.301+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:46:00.345+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:46:00.345+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:46:00.363+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:46:00.362+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:46:00.387+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.143 seconds
+[2024-11-08T23:46:31.273+0100] {processor.py:186} INFO - Started process (PID=24378) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:46:31.305+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:46:31.315+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:46:31.314+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:46:31.359+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:46:31.592+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:46:31.592+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:46:31.653+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:46:31.653+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:46:31.790+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.558 seconds
+[2024-11-08T23:47:02.149+0100] {processor.py:186} INFO - Started process (PID=24558) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:47:02.150+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:47:02.154+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:47:02.153+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:47:02.169+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:47:02.217+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:47:02.217+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:47:02.241+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:47:02.241+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:47:02.269+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.136 seconds
+[2024-11-08T23:47:32.969+0100] {processor.py:186} INFO - Started process (PID=24733) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:47:32.971+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:47:32.974+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:47:32.974+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:47:32.983+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:47:33.028+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:47:33.027+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:47:33.048+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:47:33.048+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:47:33.074+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.118 seconds
+[2024-11-08T23:48:03.535+0100] {processor.py:186} INFO - Started process (PID=24906) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:48:03.537+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:48:03.541+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:48:03.540+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:48:03.550+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:48:03.598+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:48:03.598+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:48:03.614+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:48:03.614+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:48:03.637+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.116 seconds
+[2024-11-08T23:48:33.991+0100] {processor.py:186} INFO - Started process (PID=25085) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:48:33.992+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:48:33.997+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:48:33.996+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:48:34.025+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:48:34.072+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:48:34.072+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:48:34.090+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:48:34.090+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:48:34.119+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.140 seconds
+[2024-11-08T23:49:04.392+0100] {processor.py:186} INFO - Started process (PID=25264) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:49:04.393+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:49:04.395+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:49:04.395+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:49:04.408+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:49:04.450+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:49:04.449+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:49:04.468+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:49:04.468+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:49:04.496+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.117 seconds
+[2024-11-08T23:49:34.607+0100] {processor.py:186} INFO - Started process (PID=25439) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:49:34.610+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:49:34.613+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:49:34.613+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:49:34.627+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:49:34.673+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:49:34.673+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:49:34.693+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:49:34.692+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:49:34.723+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.131 seconds
+[2024-11-08T23:50:04.961+0100] {processor.py:186} INFO - Started process (PID=25618) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:50:04.963+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:50:04.967+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:50:04.966+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:50:04.981+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:50:05.038+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:50:05.038+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:50:05.063+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:50:05.063+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:50:05.093+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.142 seconds
+[2024-11-08T23:50:35.175+0100] {processor.py:186} INFO - Started process (PID=25797) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:50:35.178+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:50:35.182+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:50:35.181+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:50:35.198+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:50:35.248+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:50:35.248+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:50:35.267+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:50:35.267+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:50:35.294+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.138 seconds
+[2024-11-08T23:51:05.421+0100] {processor.py:186} INFO - Started process (PID=25977) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:51:05.424+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:51:05.428+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:51:05.427+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:51:05.443+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:51:05.498+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:51:05.497+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:51:05.530+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:51:05.530+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:51:05.571+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.160 seconds
+[2024-11-08T23:51:35.691+0100] {processor.py:186} INFO - Started process (PID=26157) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:51:35.693+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:51:35.697+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:51:35.697+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:51:35.706+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:51:35.747+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:51:35.747+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:51:35.764+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:51:35.764+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:51:35.789+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.113 seconds
+[2024-11-08T23:52:05.944+0100] {processor.py:186} INFO - Started process (PID=26335) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:52:05.952+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:52:05.955+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:52:05.955+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:52:05.965+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:52:06.016+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:52:06.015+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:52:06.039+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:52:06.039+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:52:06.067+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.157 seconds
+[2024-11-08T23:52:36.557+0100] {processor.py:186} INFO - Started process (PID=26510) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:52:36.560+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:52:36.565+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:52:36.564+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:52:36.581+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:52:36.645+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:52:36.644+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:52:36.669+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:52:36.668+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:52:36.704+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.159 seconds
+[2024-11-08T23:53:07.133+0100] {processor.py:186} INFO - Started process (PID=26690) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:53:07.136+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:53:07.139+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:53:07.139+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:53:07.148+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:53:07.195+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:53:07.194+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:53:07.215+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:53:07.215+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:53:07.243+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.140 seconds
+[2024-11-08T23:53:37.748+0100] {processor.py:186} INFO - Started process (PID=26877) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:53:37.752+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:53:37.755+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:53:37.755+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:53:37.770+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:53:37.827+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:53:37.826+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:53:37.853+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:53:37.853+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:53:37.885+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.166 seconds
+[2024-11-08T23:54:08.378+0100] {processor.py:186} INFO - Started process (PID=27060) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:54:08.386+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:54:08.393+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:54:08.392+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:54:08.408+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:54:08.455+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:54:08.454+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:54:08.472+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:54:08.471+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:54:08.499+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.180 seconds
+[2024-11-08T23:54:38.886+0100] {processor.py:186} INFO - Started process (PID=27240) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:54:38.889+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:54:38.895+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:54:38.894+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:54:38.911+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:54:38.962+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:54:38.962+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:54:38.983+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:54:38.982+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:54:39.010+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.159 seconds
+[2024-11-08T23:55:09.476+0100] {processor.py:186} INFO - Started process (PID=27423) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:55:09.478+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:55:09.483+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:55:09.482+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:55:09.492+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:55:09.538+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:55:09.537+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:55:09.557+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:55:09.557+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:55:09.585+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.122 seconds
+[2024-11-08T23:55:39.778+0100] {processor.py:186} INFO - Started process (PID=27601) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:55:39.781+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:55:39.785+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:55:39.784+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:55:39.801+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:55:39.869+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:55:39.868+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:55:39.903+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:55:39.902+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:55:39.943+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.175 seconds
+[2024-11-08T23:56:10.865+0100] {processor.py:186} INFO - Started process (PID=27781) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:56:10.890+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:56:10.893+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:56:10.892+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:56:10.907+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:56:10.956+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:56:10.956+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:56:10.981+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:56:10.981+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:56:11.019+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.192 seconds
+[2024-11-08T23:56:41.118+0100] {processor.py:186} INFO - Started process (PID=27955) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:56:41.120+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:56:41.124+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:56:41.123+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:56:41.137+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:56:41.182+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:56:41.181+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:56:41.202+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:56:41.202+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:56:41.230+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.127 seconds
+[2024-11-08T23:57:11.563+0100] {processor.py:186} INFO - Started process (PID=28136) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:57:11.565+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:57:11.568+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:57:11.568+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:57:11.581+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:57:11.703+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:57:11.702+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:57:11.758+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:57:11.758+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:57:11.888+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.351 seconds
+[2024-11-08T23:57:42.014+0100] {processor.py:186} INFO - Started process (PID=28314) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:57:42.035+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:57:42.039+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:57:42.039+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:57:42.057+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:57:42.119+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:57:42.119+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:57:42.151+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:57:42.151+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:57:42.196+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.202 seconds
+[2024-11-08T23:58:13.194+0100] {processor.py:186} INFO - Started process (PID=28494) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:58:13.196+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:58:13.199+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:58:13.199+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:58:13.213+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:58:13.274+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:58:13.273+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:58:13.295+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:58:13.295+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:58:13.333+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.153 seconds
+[2024-11-08T23:58:43.603+0100] {processor.py:186} INFO - Started process (PID=28674) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:58:43.604+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:58:43.608+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:58:43.608+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:58:43.628+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:58:43.699+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:58:43.698+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:58:43.716+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:58:43.716+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:58:43.745+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.170 seconds
+[2024-11-08T23:59:14.612+0100] {processor.py:186} INFO - Started process (PID=28857) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:59:14.614+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:59:14.616+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:59:14.616+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:59:14.631+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:59:14.686+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:59:14.686+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:59:14.710+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:59:14.710+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:59:14.736+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.142 seconds
+[2024-11-08T23:59:44.835+0100] {processor.py:186} INFO - Started process (PID=29030) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:59:44.836+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-08T23:59:44.840+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:59:44.839+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:59:44.855+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-08T23:59:44.919+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:59:44.919+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-08T23:59:44.947+0100] {logging_mixin.py:190} INFO - [2024-11-08T23:59:44.947+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-08T23:59:44.982+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.157 seconds
+[2024-11-09T00:00:15.724+0100] {processor.py:186} INFO - Started process (PID=29265) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:00:15.729+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:00:15.732+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:00:15.731+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:00:15.744+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:00:15.797+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:00:15.796+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:00:15.826+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:00:15.826+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:00:15.867+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.155 seconds
+[2024-11-09T00:00:46.224+0100] {processor.py:186} INFO - Started process (PID=29448) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:00:46.226+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:00:46.240+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:00:46.229+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:00:46.269+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:00:46.420+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:00:46.419+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:00:46.510+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:00:46.509+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:00:46.548+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.354 seconds
+[2024-11-09T00:01:17.411+0100] {processor.py:186} INFO - Started process (PID=29628) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:01:17.415+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:01:17.420+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:01:17.419+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:01:17.432+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:01:17.478+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:01:17.477+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:01:17.495+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:01:17.494+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:01:17.527+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.137 seconds
+[2024-11-09T00:01:48.450+0100] {processor.py:186} INFO - Started process (PID=29811) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:01:48.455+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:01:48.459+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:01:48.459+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:01:48.474+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:01:48.532+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:01:48.532+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:01:48.559+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:01:48.556+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:01:48.589+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.166 seconds
+[2024-11-09T00:02:19.313+0100] {processor.py:186} INFO - Started process (PID=29993) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:02:19.318+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:02:19.330+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:02:19.329+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:02:19.350+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:02:19.412+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:02:19.412+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:02:19.430+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:02:19.429+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:02:19.459+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.198 seconds
+[2024-11-09T00:02:50.418+0100] {processor.py:186} INFO - Started process (PID=30171) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:02:50.421+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:02:50.424+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:02:50.423+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:02:50.436+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:02:50.482+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:02:50.481+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:02:50.500+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:02:50.499+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:02:50.524+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.120 seconds
+[2024-11-09T00:03:20.652+0100] {processor.py:186} INFO - Started process (PID=30355) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:03:20.655+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:03:20.659+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:03:20.659+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:03:20.673+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:03:20.735+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:03:20.734+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:03:20.767+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:03:20.766+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:03:20.802+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.165 seconds
+[2024-11-09T00:03:51.466+0100] {processor.py:186} INFO - Started process (PID=30535) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:03:51.467+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:03:51.475+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:03:51.474+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:03:51.493+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:03:51.593+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:03:51.592+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:03:51.647+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:03:51.647+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:03:51.713+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.261 seconds
+[2024-11-09T00:04:22.366+0100] {processor.py:186} INFO - Started process (PID=30715) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:04:22.368+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:04:22.372+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:04:22.371+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:04:22.385+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:04:22.449+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:04:22.448+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:04:22.480+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:04:22.479+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:04:22.694+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.340 seconds
+[2024-11-09T00:04:53.376+0100] {processor.py:186} INFO - Started process (PID=30897) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:04:53.378+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:04:53.384+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:04:53.383+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:04:53.400+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:04:53.483+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:04:53.482+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:04:53.526+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:04:53.525+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:04:53.602+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.243 seconds
+[2024-11-09T00:05:23.694+0100] {processor.py:186} INFO - Started process (PID=31079) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:05:23.697+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:05:23.704+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:05:23.703+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:05:23.725+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:05:23.846+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:05:23.845+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:05:23.890+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:05:23.890+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:05:23.946+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.272 seconds
+[2024-11-09T00:05:54.153+0100] {processor.py:186} INFO - Started process (PID=31258) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:05:54.155+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:05:54.160+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:05:54.160+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:05:54.176+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:05:54.231+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:05:54.231+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:05:54.261+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:05:54.260+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:05:54.297+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.155 seconds
+[2024-11-09T00:06:24.415+0100] {processor.py:186} INFO - Started process (PID=31440) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:06:24.418+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:06:24.427+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:06:24.425+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:06:24.449+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:06:24.500+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:06:24.499+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:06:24.517+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:06:24.516+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:06:24.543+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.158 seconds
+[2024-11-09T00:06:54.727+0100] {processor.py:186} INFO - Started process (PID=31620) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:06:54.730+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:06:54.733+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:06:54.732+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:06:54.742+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:06:54.785+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:06:54.784+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:06:54.808+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:06:54.807+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:06:54.835+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.117 seconds
+[2024-11-09T00:07:24.903+0100] {processor.py:186} INFO - Started process (PID=31800) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:07:24.904+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:07:24.907+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:07:24.906+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:07:24.917+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:07:24.962+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:07:24.962+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:07:24.979+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:07:24.978+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:07:25.006+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.118 seconds
+[2024-11-09T00:07:55.857+0100] {processor.py:186} INFO - Started process (PID=31979) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:07:55.863+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:07:55.867+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:07:55.866+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:07:55.877+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:07:55.924+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:07:55.923+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:07:55.944+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:07:55.944+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:07:55.974+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.128 seconds
+[2024-11-09T00:08:26.763+0100] {processor.py:186} INFO - Started process (PID=32158) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:08:26.768+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:08:26.778+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:08:26.776+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:08:26.799+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:08:26.860+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:08:26.859+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:08:26.882+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:08:26.881+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:08:26.917+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.199 seconds
+[2024-11-09T00:08:57.789+0100] {processor.py:186} INFO - Started process (PID=32337) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:08:57.790+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:08:57.794+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:08:57.794+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:08:57.806+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:08:57.855+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:08:57.855+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:08:57.873+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:08:57.873+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:08:57.899+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.125 seconds
+[2024-11-09T00:09:28.525+0100] {processor.py:186} INFO - Started process (PID=32524) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:09:28.545+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:09:28.548+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:09:28.548+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:09:28.566+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:09:28.612+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:09:28.611+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:09:28.633+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:09:28.633+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:09:28.660+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.173 seconds
+[2024-11-09T00:09:58.717+0100] {processor.py:186} INFO - Started process (PID=32697) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:09:58.718+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:09:58.722+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:09:58.721+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:09:58.736+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:09:58.789+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:09:58.788+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:09:58.828+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:09:58.827+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:09:58.877+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.172 seconds
+[2024-11-09T00:10:29.240+0100] {processor.py:186} INFO - Started process (PID=32882) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:10:29.243+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:10:29.247+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:10:29.246+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:10:29.257+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:10:29.305+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:10:29.305+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:10:29.329+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:10:29.329+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:10:29.358+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.133 seconds
+[2024-11-09T00:10:59.416+0100] {processor.py:186} INFO - Started process (PID=33069) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:10:59.430+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:10:59.437+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:10:59.436+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:10:59.474+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:10:59.555+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:10:59.554+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:10:59.604+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:10:59.604+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:10:59.656+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.259 seconds
+[2024-11-09T00:11:29.835+0100] {processor.py:186} INFO - Started process (PID=33317) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:11:29.840+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:11:29.853+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:11:29.852+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:11:29.877+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:11:29.935+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:11:29.935+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:11:29.956+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:11:29.956+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:11:29.990+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.209 seconds
+[2024-11-09T00:12:00.338+0100] {processor.py:186} INFO - Started process (PID=33498) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:12:00.341+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:12:00.344+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:12:00.344+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:12:00.353+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:12:00.399+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:12:00.399+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:12:00.419+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:12:00.418+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:12:00.445+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.119 seconds
+[2024-11-09T00:12:31.006+0100] {processor.py:186} INFO - Started process (PID=33678) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:12:31.009+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:12:31.015+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:12:31.014+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:12:31.025+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:12:31.080+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:12:31.079+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:12:31.105+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:12:31.105+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:12:31.153+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.171 seconds
+[2024-11-09T00:13:01.669+0100] {processor.py:186} INFO - Started process (PID=33863) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:13:01.671+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:13:01.675+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:13:01.675+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:13:01.688+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:13:01.735+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:13:01.735+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:13:01.759+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:13:01.758+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:13:01.791+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.134 seconds
+[2024-11-09T00:13:33.346+0100] {processor.py:186} INFO - Started process (PID=34045) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:13:33.349+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:13:33.353+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:13:33.353+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:13:33.362+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:13:33.409+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:13:33.409+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:13:33.429+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:13:33.429+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:13:33.456+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.120 seconds
+[2024-11-09T00:14:04.035+0100] {processor.py:186} INFO - Started process (PID=34228) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:14:04.043+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:14:04.050+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:14:04.048+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:14:04.072+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:14:04.177+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:14:04.176+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:14:04.237+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:14:04.236+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:14:04.303+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.278 seconds
+[2024-11-09T00:14:34.625+0100] {processor.py:186} INFO - Started process (PID=34527) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:14:34.626+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:14:34.630+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:14:34.629+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:14:34.647+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:14:34.701+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:14:34.700+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:14:34.729+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:14:34.728+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:14:34.762+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.149 seconds
+[2024-11-09T00:15:04.937+0100] {processor.py:186} INFO - Started process (PID=34711) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:15:04.939+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:15:04.942+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:15:04.942+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:15:04.953+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:15:05.001+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:15:05.001+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:15:05.027+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:15:05.026+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:15:05.056+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.128 seconds
+[2024-11-09T00:15:35.469+0100] {processor.py:186} INFO - Started process (PID=34888) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:15:35.471+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:15:35.476+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:15:35.474+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:15:35.486+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:15:35.535+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:15:35.535+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:15:35.567+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:15:35.567+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:15:35.605+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.145 seconds
+[2024-11-09T00:16:05.884+0100] {processor.py:186} INFO - Started process (PID=35057) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:16:05.889+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:16:05.893+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:16:05.892+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:16:05.907+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:16:05.967+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:16:05.966+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:16:05.994+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:16:05.994+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:16:06.033+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.162 seconds
+[2024-11-09T00:16:36.460+0100] {processor.py:186} INFO - Started process (PID=35244) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:16:36.464+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:16:36.467+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:16:36.467+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:16:36.481+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:16:36.530+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:16:36.529+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:16:36.548+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:16:36.548+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:16:36.579+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.135 seconds
+[2024-11-09T00:17:06.688+0100] {processor.py:186} INFO - Started process (PID=35430) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:17:06.693+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:17:06.696+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:17:06.696+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:17:06.709+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:17:06.762+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:17:06.761+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:17:06.786+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:17:06.786+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:17:06.821+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.143 seconds
+[2024-11-09T00:17:37.019+0100] {processor.py:186} INFO - Started process (PID=35596) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:17:37.020+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:17:37.024+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:17:37.023+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:17:37.035+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:17:37.081+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:17:37.081+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:17:37.105+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:17:37.104+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:17:37.138+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.133 seconds
+[2024-11-09T00:18:07.896+0100] {processor.py:186} INFO - Started process (PID=35775) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:18:07.906+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:18:07.909+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:18:07.908+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:18:07.926+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:18:08.004+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:18:08.003+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:18:08.039+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:18:08.039+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:18:08.085+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.204 seconds
+[2024-11-09T00:18:38.477+0100] {processor.py:186} INFO - Started process (PID=35956) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:18:38.479+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:18:38.482+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:18:38.482+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:18:38.495+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:18:38.541+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:18:38.540+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:18:38.560+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:18:38.560+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:18:38.589+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.131 seconds
+[2024-11-09T00:19:08.750+0100] {processor.py:186} INFO - Started process (PID=36128) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:19:08.752+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:19:08.755+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:19:08.754+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:19:08.765+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:19:08.809+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:19:08.809+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:19:08.831+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:19:08.831+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:19:08.869+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.128 seconds
+[2024-11-09T00:19:39.435+0100] {processor.py:186} INFO - Started process (PID=36296) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:19:39.440+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:19:39.463+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:19:39.461+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:19:39.496+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:19:39.551+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:19:39.551+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:19:39.573+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:19:39.573+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:19:39.606+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.204 seconds
+[2024-11-09T00:20:09.788+0100] {processor.py:186} INFO - Started process (PID=36480) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:20:09.791+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:20:09.795+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:20:09.794+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:20:09.806+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:20:09.852+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:20:09.852+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:20:09.875+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:20:09.875+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:20:09.909+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.142 seconds
+[2024-11-09T00:20:40.377+0100] {processor.py:186} INFO - Started process (PID=36663) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:20:40.387+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:20:40.391+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:20:40.391+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:20:40.402+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:20:40.450+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:20:40.449+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:20:40.470+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:20:40.470+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:20:40.495+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.144 seconds
+[2024-11-09T00:21:11.149+0100] {processor.py:186} INFO - Started process (PID=36845) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:21:11.152+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:21:11.157+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:21:11.156+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:21:11.173+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:21:11.228+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:21:11.227+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:21:11.256+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:21:11.256+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:21:11.332+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.193 seconds
+[2024-11-09T00:21:41.547+0100] {processor.py:186} INFO - Started process (PID=37019) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:21:41.551+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:21:41.566+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:21:41.564+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:21:41.586+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:21:41.632+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:21:41.632+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:21:41.651+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:21:41.651+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:21:41.678+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.167 seconds
+[2024-11-09T00:22:12.377+0100] {processor.py:186} INFO - Started process (PID=37198) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:22:12.380+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:22:12.385+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:22:12.384+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:22:12.394+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:22:12.441+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:22:12.441+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:22:12.464+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:22:12.464+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:22:12.493+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.129 seconds
+[2024-11-09T00:22:42.985+0100] {processor.py:186} INFO - Started process (PID=37378) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:22:42.987+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:22:42.991+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:22:42.990+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:22:43.005+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:22:43.055+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:22:43.055+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:22:43.078+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:22:43.077+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:22:43.106+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.138 seconds
+[2024-11-09T00:23:13.687+0100] {processor.py:186} INFO - Started process (PID=37561) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:23:13.693+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:23:13.703+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:23:13.702+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:23:13.720+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:23:13.768+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:23:13.768+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:23:13.796+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:23:13.796+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:23:13.839+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.166 seconds
+[2024-11-09T00:23:44.209+0100] {processor.py:186} INFO - Started process (PID=37770) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:23:44.221+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:23:44.239+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:23:44.239+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:23:44.266+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:23:44.322+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:23:44.322+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:23:44.344+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:23:44.344+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:23:44.372+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.196 seconds
+[2024-11-09T00:24:14.960+0100] {processor.py:186} INFO - Started process (PID=37949) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:24:14.964+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:24:14.971+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:24:14.971+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:24:14.987+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:24:15.035+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:24:15.035+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:24:15.057+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:24:15.056+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:24:15.081+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.160 seconds
+[2024-11-09T00:24:45.392+0100] {processor.py:186} INFO - Started process (PID=38128) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:24:45.394+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:24:45.399+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:24:45.398+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:24:45.408+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:24:45.460+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:24:45.459+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:24:45.483+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:24:45.482+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:24:45.512+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.132 seconds
+[2024-11-09T00:25:15.794+0100] {processor.py:186} INFO - Started process (PID=38304) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:25:15.798+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:25:15.808+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:25:15.801+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:25:15.839+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:25:15.988+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:25:15.988+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:25:16.075+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:25:16.075+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:25:16.206+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.454 seconds
+[2024-11-09T00:25:47.078+0100] {processor.py:186} INFO - Started process (PID=38487) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:25:47.080+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:25:47.095+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:25:47.093+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:25:47.131+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:25:47.258+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:25:47.258+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:25:47.326+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:25:47.326+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:25:47.396+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.357 seconds
+[2024-11-09T00:26:18.180+0100] {processor.py:186} INFO - Started process (PID=38675) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:26:18.182+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:26:18.188+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:26:18.188+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:26:18.203+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:26:18.251+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:26:18.250+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:26:18.274+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:26:18.273+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:26:18.306+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.139 seconds
+[2024-11-09T00:26:48.685+0100] {processor.py:186} INFO - Started process (PID=38863) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:26:48.687+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:26:48.691+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:26:48.690+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:26:48.709+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:26:48.797+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:26:48.796+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:26:48.834+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:26:48.832+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:26:48.875+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.207 seconds
+[2024-11-09T00:27:19.627+0100] {processor.py:186} INFO - Started process (PID=39162) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:27:19.631+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:27:19.636+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:27:19.635+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:27:19.650+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:27:19.698+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:27:19.698+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:27:19.724+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:27:19.724+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:27:19.753+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.179 seconds
+[2024-11-09T00:27:50.208+0100] {processor.py:186} INFO - Started process (PID=39346) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:27:50.209+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:27:50.212+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:27:50.212+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:27:50.226+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:27:50.287+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:27:50.286+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:27:50.316+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:27:50.315+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:27:50.348+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.155 seconds
+[2024-11-09T00:28:20.934+0100] {processor.py:186} INFO - Started process (PID=39526) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:28:20.937+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:28:20.940+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:28:20.939+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:28:20.951+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:28:20.994+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:28:20.994+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:28:21.017+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:28:21.016+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:28:21.046+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.121 seconds
+[2024-11-09T00:28:51.383+0100] {processor.py:186} INFO - Started process (PID=39707) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:28:51.385+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:28:51.388+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:28:51.387+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:28:51.400+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:28:51.448+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:28:51.447+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:28:51.472+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:28:51.471+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:28:51.500+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.137 seconds
+[2024-11-09T00:29:21.663+0100] {processor.py:186} INFO - Started process (PID=39889) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:29:21.666+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:29:21.669+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:29:21.668+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:29:21.678+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:29:21.745+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:29:21.744+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:29:21.774+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:29:21.773+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:29:21.823+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.174 seconds
+[2024-11-09T00:29:52.482+0100] {processor.py:186} INFO - Started process (PID=40075) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:29:52.493+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:29:52.497+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:29:52.497+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:29:52.510+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:29:52.569+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:29:52.568+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:29:52.595+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:29:52.594+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:29:52.628+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.206 seconds
+[2024-11-09T00:30:23.271+0100] {processor.py:186} INFO - Started process (PID=40316) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:30:23.274+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:30:23.278+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:30:23.277+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:30:23.292+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:30:23.348+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:30:23.348+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:30:23.373+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:30:23.372+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:30:23.405+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.159 seconds
+[2024-11-09T00:30:53.761+0100] {processor.py:186} INFO - Started process (PID=40555) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:30:53.764+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:30:53.771+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:30:53.770+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:30:53.790+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:30:53.842+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:30:53.842+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:30:53.861+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:30:53.860+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:30:53.890+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.155 seconds
+[2024-11-09T00:31:23.985+0100] {processor.py:186} INFO - Started process (PID=40734) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:31:23.988+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:31:23.990+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:31:23.990+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:31:24.002+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:31:24.051+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:31:24.051+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:31:24.080+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:31:24.080+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:31:24.121+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.148 seconds
+[2024-11-09T00:31:54.719+0100] {processor.py:186} INFO - Started process (PID=40913) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:31:54.720+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:31:54.723+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:31:54.723+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:31:54.732+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:31:54.777+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:31:54.776+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:31:54.798+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:31:54.798+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:31:54.825+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.118 seconds
+[2024-11-09T00:32:25.432+0100] {processor.py:186} INFO - Started process (PID=41092) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:32:25.434+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:32:25.437+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:32:25.436+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:32:25.446+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:32:25.484+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:32:25.484+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:32:25.502+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:32:25.502+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:32:25.532+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.114 seconds
+[2024-11-09T00:32:55.882+0100] {processor.py:186} INFO - Started process (PID=41272) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:32:55.883+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:32:55.889+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:32:55.888+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:32:55.902+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:32:55.951+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:32:55.950+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:32:55.973+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:32:55.973+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:32:56.004+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.132 seconds
+[2024-11-09T00:33:26.875+0100] {processor.py:186} INFO - Started process (PID=41451) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:33:26.878+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:33:26.882+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:33:26.881+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:33:26.892+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:33:26.939+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:33:26.938+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:33:26.962+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:33:26.961+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:33:26.992+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.132 seconds
+[2024-11-09T00:33:57.118+0100] {processor.py:186} INFO - Started process (PID=41630) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:33:57.120+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:33:57.123+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:33:57.122+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:33:57.137+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:33:57.177+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:33:57.177+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:33:57.201+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:33:57.201+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:33:57.236+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.131 seconds
+[2024-11-09T00:34:28.081+0100] {processor.py:186} INFO - Started process (PID=41809) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:34:28.083+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:34:28.087+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:34:28.087+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:34:28.099+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:34:28.145+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:34:28.145+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:34:28.168+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:34:28.167+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:34:28.199+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.131 seconds
+[2024-11-09T00:34:59.053+0100] {processor.py:186} INFO - Started process (PID=41994) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:34:59.056+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:34:59.061+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:34:59.060+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:34:59.070+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:34:59.114+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:34:59.113+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:34:59.135+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:34:59.135+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:34:59.166+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.130 seconds
+[2024-11-09T00:35:29.355+0100] {processor.py:186} INFO - Started process (PID=42178) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:35:29.357+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:35:29.361+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:35:29.360+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:35:29.373+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:35:29.417+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:35:29.417+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:35:29.434+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:35:29.434+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:35:29.461+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.120 seconds
+[2024-11-09T00:35:59.697+0100] {processor.py:186} INFO - Started process (PID=42359) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:35:59.700+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:35:59.703+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:35:59.703+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:35:59.713+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:35:59.756+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:35:59.755+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:35:59.914+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:35:59.914+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:35:59.941+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.259 seconds
+[2024-11-09T00:36:30.319+0100] {processor.py:186} INFO - Started process (PID=42538) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:36:30.320+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:36:30.324+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:36:30.323+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:36:30.334+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:36:30.377+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:36:30.377+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:36:30.557+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:36:30.556+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:36:30.590+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.286 seconds
+[2024-11-09T00:37:00.836+0100] {processor.py:186} INFO - Started process (PID=42717) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:37:00.839+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:37:00.843+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:37:00.842+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:37:00.862+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:37:00.950+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:37:00.950+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:37:01.264+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:37:01.264+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:37:01.297+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.472 seconds
+[2024-11-09T00:37:31.818+0100] {processor.py:186} INFO - Started process (PID=42909) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:37:31.820+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:37:31.826+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:37:31.825+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:37:31.837+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:37:31.907+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:37:31.907+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:37:31.936+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:37:31.933+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:37:32.010+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.207 seconds
+[2024-11-09T00:38:02.454+0100] {processor.py:186} INFO - Started process (PID=43159) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:38:02.473+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:38:02.478+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:38:02.477+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:38:02.505+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:38:02.589+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:38:02.589+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:38:02.631+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:38:02.631+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:38:02.680+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.267 seconds
+[2024-11-09T00:38:33.281+0100] {processor.py:186} INFO - Started process (PID=43392) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:38:33.286+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:38:33.293+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:38:33.292+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:38:33.316+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:38:33.383+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:38:33.383+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:38:33.406+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:38:33.405+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:38:33.435+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.182 seconds
+[2024-11-09T00:39:04.287+0100] {processor.py:186} INFO - Started process (PID=43573) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:39:04.288+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:39:04.292+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:39:04.290+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:39:04.303+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:39:04.348+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:39:04.347+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:39:04.369+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:39:04.369+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:39:04.401+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.125 seconds
+[2024-11-09T00:39:34.885+0100] {processor.py:186} INFO - Started process (PID=43752) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:39:34.889+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:39:34.898+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:39:34.894+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:39:34.912+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:39:34.961+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:39:34.960+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:39:34.979+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:39:34.979+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:39:35.007+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.174 seconds
+[2024-11-09T00:40:05.374+0100] {processor.py:186} INFO - Started process (PID=43931) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:40:05.376+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:40:05.381+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:40:05.380+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:40:05.398+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:40:05.445+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:40:05.444+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:40:05.466+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:40:05.466+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:40:05.494+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.152 seconds
+[2024-11-09T00:40:36.080+0100] {processor.py:186} INFO - Started process (PID=44110) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:40:36.082+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:40:36.086+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:40:36.085+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:40:36.101+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:40:36.150+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:40:36.150+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:40:36.171+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:40:36.170+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:40:36.213+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.145 seconds
+[2024-11-09T00:41:06.799+0100] {processor.py:186} INFO - Started process (PID=44289) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:41:06.801+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:41:06.805+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:41:06.804+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:41:06.817+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:41:06.863+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:41:06.863+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:41:06.885+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:41:06.884+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:41:06.912+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.147 seconds
+[2024-11-09T00:41:37.834+0100] {processor.py:186} INFO - Started process (PID=44470) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:41:37.839+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:41:37.847+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:41:37.846+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:41:37.866+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:41:37.919+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:41:37.919+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:41:37.942+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:41:37.941+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:41:37.977+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.184 seconds
+[2024-11-09T00:42:08.207+0100] {processor.py:186} INFO - Started process (PID=44649) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:42:08.212+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:42:08.216+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:42:08.215+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:42:08.229+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:42:08.287+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:42:08.286+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:42:08.327+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:42:08.326+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:42:08.363+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.172 seconds
+[2024-11-09T00:42:38.877+0100] {processor.py:186} INFO - Started process (PID=44829) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:42:38.890+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:42:38.894+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:42:38.894+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:42:38.906+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:42:38.956+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:42:38.956+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:42:38.975+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:42:38.974+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:42:38.999+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.161 seconds
+[2024-11-09T00:43:09.617+0100] {processor.py:186} INFO - Started process (PID=45013) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:43:09.619+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:43:09.621+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:43:09.621+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:43:09.635+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:43:09.697+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:43:09.697+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:43:09.721+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:43:09.721+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:43:09.752+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.151 seconds
+[2024-11-09T00:43:40.430+0100] {processor.py:186} INFO - Started process (PID=45194) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:43:40.433+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:43:40.437+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:43:40.436+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:43:40.451+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:43:40.511+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:43:40.510+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:43:40.540+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:43:40.540+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:43:40.579+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.161 seconds
+[2024-11-09T00:44:10.861+0100] {processor.py:186} INFO - Started process (PID=45370) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:10.863+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:44:10.867+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:10.867+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:10.881+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:10.946+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:10.946+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:44:10.972+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:10.972+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:44:11.007+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.164 seconds
+[2024-11-09T00:44:17.163+0100] {processor.py:186} INFO - Started process (PID=45388) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:17.164+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:44:17.168+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:17.167+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:17.178+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:17.365+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:17.365+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:44:17.382+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:17.381+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:44:17.413+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.257 seconds
+[2024-11-09T00:44:47.986+0100] {processor.py:186} INFO - Started process (PID=45681) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:47.992+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:44:47.998+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:47.997+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:48.030+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:44:48.134+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:48.134+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:44:48.210+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:44:48.209+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:44:48.287+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.340 seconds
+[2024-11-09T00:45:19.576+0100] {processor.py:186} INFO - Started process (PID=45924) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:45:19.584+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:45:19.593+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:45:19.591+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:45:19.631+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:45:19.728+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:45:19.727+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:45:19.770+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:45:19.769+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:45:19.823+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.295 seconds
+[2024-11-09T00:45:50.335+0100] {processor.py:186} INFO - Started process (PID=46103) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:45:50.346+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:45:50.367+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:45:50.363+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:45:50.411+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:45:50.466+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:45:50.466+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:45:50.491+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:45:50.491+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:45:50.521+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.224 seconds
+[2024-11-09T00:46:20.899+0100] {processor.py:186} INFO - Started process (PID=46277) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:46:20.903+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:46:20.907+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:46:20.906+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:46:20.924+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:46:20.989+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:46:20.988+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:46:21.018+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:46:21.018+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:46:21.067+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.189 seconds
+[2024-11-09T00:46:51.969+0100] {processor.py:186} INFO - Started process (PID=46460) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:46:51.972+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:46:51.974+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:46:51.974+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:46:51.984+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:46:52.031+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:46:52.030+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:46:52.050+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:46:52.050+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:46:52.082+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.123 seconds
+[2024-11-09T00:47:22.251+0100] {processor.py:186} INFO - Started process (PID=46639) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:47:22.257+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:47:22.260+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:47:22.259+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:47:22.271+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:47:22.315+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:47:22.315+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:47:22.332+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:47:22.332+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:47:22.356+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.114 seconds
+[2024-11-09T00:47:52.982+0100] {processor.py:186} INFO - Started process (PID=46818) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:47:52.983+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:47:52.987+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:47:52.986+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:47:52.997+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:47:53.047+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:47:53.046+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:47:53.065+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:47:53.064+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:47:53.088+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.118 seconds
+[2024-11-09T00:48:23.251+0100] {processor.py:186} INFO - Started process (PID=46994) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:48:23.253+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:48:23.256+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:48:23.255+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:48:23.264+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:48:23.309+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:48:23.308+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:48:23.325+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:48:23.325+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:48:23.350+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.110 seconds
+[2024-11-09T00:48:53.627+0100] {processor.py:186} INFO - Started process (PID=47175) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:48:53.630+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:48:53.632+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:48:53.632+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:48:53.643+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:48:53.682+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:48:53.682+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:48:53.701+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:48:53.701+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:48:53.723+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.107 seconds
+[2024-11-09T00:49:24.673+0100] {processor.py:186} INFO - Started process (PID=47354) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:49:24.675+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:49:24.678+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:49:24.677+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:49:24.687+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:49:24.734+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:49:24.734+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:49:24.754+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:49:24.754+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:49:24.780+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.119 seconds
+[2024-11-09T00:49:55.508+0100] {processor.py:186} INFO - Started process (PID=47535) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:49:55.509+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:49:55.511+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:49:55.511+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:49:55.521+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:49:55.565+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:49:55.564+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:49:55.581+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:49:55.581+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:49:55.608+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.108 seconds
+[2024-11-09T00:50:25.827+0100] {processor.py:186} INFO - Started process (PID=47717) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:50:25.831+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:50:25.833+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:50:25.832+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:50:25.844+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:50:25.882+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:50:25.882+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:50:25.902+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:50:25.902+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:50:25.929+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.113 seconds
+[2024-11-09T00:50:56.241+0100] {processor.py:186} INFO - Started process (PID=47895) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:50:56.243+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:50:56.246+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:50:56.246+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:50:56.255+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:50:56.294+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:50:56.293+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:50:56.311+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:50:56.310+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:50:56.336+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.103 seconds
+[2024-11-09T00:51:26.640+0100] {processor.py:186} INFO - Started process (PID=48078) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:51:26.642+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:51:26.646+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:51:26.645+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:51:26.655+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:51:26.708+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:51:26.708+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:51:26.728+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:51:26.728+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:51:26.763+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.133 seconds
+[2024-11-09T00:51:57.082+0100] {processor.py:186} INFO - Started process (PID=48256) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:51:57.083+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:51:57.086+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:51:57.086+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:51:57.095+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:51:57.141+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:51:57.140+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:51:57.162+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:51:57.162+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:51:57.190+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.119 seconds
+[2024-11-09T00:52:28.508+0100] {processor.py:186} INFO - Started process (PID=48444) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:52:28.510+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:52:28.513+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:52:28.512+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:52:28.524+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:52:28.569+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:52:28.569+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:52:28.589+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:52:28.589+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:52:28.614+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.116 seconds
+[2024-11-09T00:52:58.957+0100] {processor.py:186} INFO - Started process (PID=48623) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:52:58.960+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:52:58.963+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:52:58.962+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:52:58.974+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:52:59.019+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:52:59.018+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:52:59.040+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:52:59.040+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:52:59.066+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.118 seconds
+[2024-11-09T00:53:29.520+0100] {processor.py:186} INFO - Started process (PID=48805) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:53:29.522+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:53:29.525+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:53:29.524+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:53:29.533+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:53:29.576+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:53:29.575+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:53:29.592+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:53:29.592+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:53:29.627+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.119 seconds
+[2024-11-09T00:53:59.918+0100] {processor.py:186} INFO - Started process (PID=48983) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:53:59.922+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:53:59.925+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:53:59.925+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:53:59.935+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:53:59.977+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:53:59.977+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:53:59.997+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:53:59.997+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:54:00.032+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.123 seconds
+[2024-11-09T00:54:30.275+0100] {processor.py:186} INFO - Started process (PID=49165) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:54:30.279+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:54:30.281+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:54:30.281+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:54:30.289+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:54:30.331+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:54:30.330+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:54:30.351+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:54:30.351+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:54:30.378+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.114 seconds
+[2024-11-09T00:55:00.577+0100] {processor.py:186} INFO - Started process (PID=49349) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:55:00.580+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:55:00.582+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:55:00.582+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:55:00.591+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:55:00.635+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:55:00.634+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:55:00.653+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:55:00.653+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:55:00.689+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.122 seconds
+[2024-11-09T00:55:30.839+0100] {processor.py:186} INFO - Started process (PID=49534) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:55:30.842+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:55:30.844+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:55:30.844+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:55:30.853+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:55:30.893+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:55:30.893+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:55:30.912+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:55:30.912+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:55:30.937+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.107 seconds
+[2024-11-09T00:56:01.695+0100] {processor.py:186} INFO - Started process (PID=49712) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:56:01.698+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:56:01.700+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:56:01.700+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:56:01.710+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:56:01.747+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:56:01.747+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:56:01.766+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:56:01.766+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:56:01.794+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.107 seconds
+[2024-11-09T00:56:32.176+0100] {processor.py:186} INFO - Started process (PID=49894) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:56:32.177+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:56:32.179+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:56:32.179+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:56:32.189+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:56:32.235+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:56:32.234+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:56:32.255+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:56:32.254+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:56:32.282+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.118 seconds
+[2024-11-09T00:57:02.462+0100] {processor.py:186} INFO - Started process (PID=50078) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:57:02.463+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:57:02.465+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:57:02.465+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:57:02.474+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:57:02.517+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:57:02.516+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:57:02.540+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:57:02.540+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:57:02.565+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.114 seconds
+[2024-11-09T00:57:32.956+0100] {processor.py:186} INFO - Started process (PID=50260) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:57:32.957+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:57:32.959+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:57:32.959+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:57:32.968+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:57:33.011+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:57:33.010+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:57:33.029+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:57:33.028+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:57:33.056+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.109 seconds
+[2024-11-09T00:58:03.182+0100] {processor.py:186} INFO - Started process (PID=50439) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:58:03.185+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:58:03.188+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:58:03.188+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:58:03.199+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:58:03.238+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:58:03.238+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:58:03.256+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:58:03.256+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:58:03.286+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.113 seconds
+[2024-11-09T00:58:33.440+0100] {processor.py:186} INFO - Started process (PID=50627) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:58:33.446+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:58:33.448+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:58:33.448+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:58:33.456+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:58:33.502+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:58:33.501+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:58:33.523+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:58:33.522+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:58:33.549+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.120 seconds
+[2024-11-09T00:59:04.826+0100] {processor.py:186} INFO - Started process (PID=50805) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:59:04.828+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:59:04.830+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:59:04.830+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:59:04.839+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:59:04.878+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:59:04.877+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:59:04.895+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:59:04.895+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:59:04.920+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.104 seconds
+[2024-11-09T00:59:35.681+0100] {processor.py:186} INFO - Started process (PID=50993) to work on /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:59:35.685+0100] {processor.py:914} INFO - Processing file /home/hajar/airflow/dags/spark_test.py for tasks to queue
+[2024-11-09T00:59:35.688+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:59:35.687+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:59:35.696+0100] {processor.py:925} INFO - DAG(s) 'spark_test_dag' retrieved from /home/hajar/airflow/dags/spark_test.py
+[2024-11-09T00:59:35.736+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:59:35.736+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-09T00:59:35.753+0100] {logging_mixin.py:190} INFO - [2024-11-09T00:59:35.753+0100] {dag.py:4180} INFO - Setting next_dagrun for spark_test_dag to None, run_after=None
+[2024-11-09T00:59:35.780+0100] {processor.py:208} INFO - Processing /home/hajar/airflow/dags/spark_test.py took 0.113 seconds
